@@ -1,0 +1,37 @@
+name: abhay_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^2.0.9
+  pin_code_fields: ^8.0.1
+  intl: ^0.19.0
+  firebase_core: ^2.27.0
+  firebase: ^9.0.3
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Urbanist
+      fonts: 
+        - asset: assets/fonts/UrbanistRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/UrbanistRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/UrbanistRomanSemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
